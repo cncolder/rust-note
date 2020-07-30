@@ -2,10 +2,11 @@
 // Create an array with at least 100 elements in it where the ??? is. 
 // Execute `rustlings hint primitive_types3` for hints!
 
-// I AM NOT DONE
+// 什么时候 JS 能有这么方便 Range 类型.
 
 fn main() {
-    let a = ???
+    // 1 到 100
+    let a = [1..100];
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
