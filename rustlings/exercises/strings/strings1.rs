@@ -2,7 +2,7 @@
 // Make me compile without changing the function signature!
 // Execute `rustlings hint strings1` for hints ;)
 
-// 多种写法
+// 多种写法 https://users.rust-lang.org/t/what-is-the-idiomatic-way-to-convert-str-to-string/12160
 
 fn main() {
     let answer = current_favorite_color();
