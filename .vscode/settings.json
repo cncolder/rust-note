@@ -1,7 +1,11 @@
 {
+    "code-runner.ignoreSelection": true,
     "code-runner.saveAllFilesBeforeRun": true,
     "code-runner.executorMap": {
         "rust": "cd $dir && cargo run # $fileName"
         // "rust": "cd $dir && cargo run 2> >(grep -i Cargo.toml) || (rustc $fileName && $dir$fileNameWithoutExt)"
-    }
+    },
+    "cSpell.words": [
+        "rustfmt"
+    ]
 }

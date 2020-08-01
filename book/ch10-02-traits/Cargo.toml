@@ -1,0 +1,12 @@
+[package]
+name = "ch10-02-traits"
+version = "0.1.0"
+authors = ["colder <colder@vitarn.com>"]
+edition = "2018"
+
+# 定义 library, 之后可以在 main 中导入 `use lib::*;`
+[lib]
+name = "lib"
+path = "src/lib.rs"
+
+[dependencies]
