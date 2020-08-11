@@ -1,0 +1,2 @@
+[workspace]
+members = ["declarative", "procedural", "hello_macro", "hello_macro_derive"]
